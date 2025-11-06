@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -1229.9999999999986,
-              "y": -625
+              "x": -1290,
+              "y": -630
             },
             "size": {
               "width": 830,
@@ -869,6 +869,10 @@
             },
             "vertices": [
               {
+                "x": -600,
+                "y": -250
+              },
+              {
                 "x": -570,
                 "y": -440
               }
@@ -945,7 +949,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit Comment",
+              "name": "Display Message of the Day",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -958,12 +962,12 @@
               "threats": []
             },
             "labels": [
-              "Submit Comment"
+              "Display Message of the Day"
             ],
-            "id": "9e9b9f12-2efd-463a-9b14-4aa4bcbc9558",
+            "id": "08d61677-e183-419c-816e-144fd2c104bd",
             "source": {
-              "x": -830,
-              "y": -530
+              "x": -850,
+              "y": -520
             },
             "target": {
               "cell": "9380b737-19c7-4768-a1d6-de158f8237e9",
@@ -971,20 +975,8 @@
             },
             "vertices": [
               {
-                "x": -1300,
-                "y": -570
-              },
-              {
-                "x": -1440,
-                "y": -510
-              },
-              {
-                "x": -1440,
-                "y": -380
-              },
-              {
-                "x": -1420,
-                "y": -300
+                "x": -1140,
+                "y": -560
               }
             ]
           },
@@ -1008,7 +1000,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Display Message of the Day",
+              "name": "Submit Comment",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1021,11 +1013,11 @@
               "threats": []
             },
             "labels": [
-              "Display Message of the Day"
+              "Submit Comment"
             ],
-            "id": "ac1882ac-cb12-4726-b559-e8d286b7fa7b",
+            "id": "75bc7891-9190-4fbf-b3fc-6c6f95e11e3b",
             "source": {
-              "x": -1410,
+              "x": -1440,
               "y": -230
             },
             "target": {
@@ -1034,16 +1026,12 @@
             },
             "vertices": [
               {
-                "x": -1280,
-                "y": -471
+                "x": -1440,
+                "y": -540
               },
               {
-                "x": -1250,
-                "y": -520
-              },
-              {
-                "x": -1140,
-                "y": -520
+                "x": -1320,
+                "y": -570
               }
             ]
           }
